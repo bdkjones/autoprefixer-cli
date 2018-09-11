@@ -1,0 +1,1 @@
+{"readmeFilename":"README.md","author":{"name":"Andrey Sitnik","email":"andrey@sitnik.ru"},"dependencies":{"postcss":"*","fs-extra":"^0.24.0","autoprefixer":"*","babel-core":"*"},"version":"1.0.0","scripts":{"test":"gulp"},"license":"MIT","name":"autoprefixer-cli","bin":{"autoprefixer-cli":".\/autoprefixer-cli"}}

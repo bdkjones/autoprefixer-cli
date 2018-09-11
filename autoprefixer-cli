@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+/* eslint-disable no-var, prefer-arrow-callback */
+
+require('./enable-es6');
+var Binary = require('./binary');
+
+var binary = new Binary(process);
+binary.run(function () {
+    if ( binary.status ) process.exit(binary.status);
+});
