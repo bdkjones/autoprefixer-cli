@@ -126,7 +126,7 @@ var Binary = (function () {
             } else if (arg === '--grid') {
                 this.pluginOptions.grid = true;
             } else if (arg === '-b' || arg === '--browsers') {
-                this.pluginOptions.browsers = args.shift().split(',').map(function (i) {
+                this.pluginOptions.overrideBrowserslist = args.shift().split(',').map(function (i) {
                     return i.trim();
                 });
             } else if (arg === '-c' || arg === '--clean') {
